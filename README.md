@@ -28,7 +28,7 @@ Error rate for Response1 | 0.003
 ## Approach
 * Made a binary tree storing a list of bigrams and the words that contain all of those bigrams
 * Split the list of unique bigrams into halves at each node
-* Passed the test bigrams one by one through the tree and when reaching a leaf our number of words at root becomes the words we found at the leaf
+* Passed the test bigrams one by one through the tree and when reaching a leaf, our number of words at root becomes the words we found at the leaf and the process continues until all bigrams are passed.
   
 ## Impact
 * While evaluating the model, it gave the following results
