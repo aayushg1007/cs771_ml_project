@@ -41,10 +41,16 @@ Evaluation time | 1.008 s
 Precision | 0.895
 
 ## Team
-* Group of students from IIT, Kanpur
+
+***Group of students from IIT, Kanpur***
 
 Aayush Gautam
+
 Abhishek Srivastava
+
 Guguloth Pavani Priya
+
 Prithvi Mehta
+
 Aditi Singh
+
