@@ -9,7 +9,7 @@
 * Then derived a final model using previously developed algorithms
 
 ## Impact
-* While evaluating the model gave the following results
+* While evaluating the model, it gave the following results
 
 
 Criteria | Result
@@ -21,10 +21,18 @@ Error rate for Response0 | 0.07
 Error rate for Response1 | 0.003
 
 # Assignment 2 - Decision Tree
+## Objective
+* To make a decision tree algorithm to guess words from a list of 5 lexicographically sorted bigrams
+* If there are more than 5 guesses, return the top 5
 
-
-
-
+## Approach
+* Made a binary tree storing a list of bigrams and the words that contain all of those bigrams
+* Split the list of unique bigrams into halves at each node
+* Passed the test bigrams one by one through the tree and when reaching a leaf our number of words at root becomes the words we found at the leaf
+  
+## Impact
+* While evaluating the model, it gave the following results
+  
 Criteria | Result
 --- | ---
 Training time | 0.082 s
